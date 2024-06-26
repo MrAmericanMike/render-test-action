@@ -1,4 +1,4 @@
-console.log("SILENCE IS GOLDEN!");
+console.log("SILENCE IS GOLDEN");
 import Koa from "koa";
 
 const APP = new Koa();
