@@ -1,0 +1,14 @@
+on: [push]
+
+jobs:
+    deploy_to_render:
+        runs-on: ubuntu-latest
+        name: Deploy to Render
+        steps:
+            - name: Deploying to Render
+              id: render_deploy
+              uses: MrAmericanMike/render-deploy-action@master
+              with:
+                  render-service-id: ${{ secrets.RENDER_SERVICE_ID }}
+                  render-api-key: ${{ secrets.RENDER_API_KEY }}
+                  wait-for-success: true

@@ -1,0 +1,12 @@
+{
+	"name": "render-test-action",
+	"version": "0.0.1",
+	"description": "",
+	"author": "MrAmericanMike",
+	"main": "src/main.js",
+	"scripts": {
+		"start": "node src/main.js"
+	},
+	"keywords": [],
+	"license": "UNLICENSED"
+}
