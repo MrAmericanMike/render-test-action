@@ -11,4 +11,4 @@ jobs:
               with:
                   render-service-id: ${{ secrets.RENDER_SERVICE_ID }}
                   render-api-key: ${{ secrets.RENDER_API_KEY }}
-                  wait-for-success: false
+                  wait-for-success: true
